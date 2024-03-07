@@ -32,16 +32,19 @@ function Users() {
   return (
     
 <div className="wrapper">
+    {/* add ui design functionalitysss */}
+    
         <div className="logo">
             <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt="" />
         </div>
         <div className="text-center mt-4 name">
-            Users Form
+            Users Form ui designs
+            placeholder changes
         </div>
         <form className="p-3 mt-3" >
             <div className="form-field d-flex align-items-center">
                 <span className="far fa-user"></span>
-                <input type="text" name="userName" id="userName" placeholder="Username" />
+                <input type="text" name="lastName" id="lastName" placeholder="lastName" />
             </div>
             <div className="form-field d-flex align-items-center">
                 <span className="fas fa-key"></span>
