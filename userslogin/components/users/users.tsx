@@ -38,8 +38,7 @@ function Users() {
             <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt="" />
         </div>
         <div className="text-center mt-4 name">
-            Users Form ui designs
-            placeholder changes
+            <h1>User Form login users</h1>
         </div>
         <form className="p-3 mt-3" >
             <div className="form-field d-flex align-items-center">
@@ -56,9 +55,9 @@ function Users() {
             </div>
             <button className="btn mt-3">Login</button>
         </form>
-        {/* <div className="text-center fs-6">
+        <div className="text-center fs-6">
             <a href="#">Forget password?</a> or <a href="#">Sign up</a>
-        </div> */}
+        </div>
     </div>
   )
 }
