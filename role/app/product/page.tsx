@@ -4,8 +4,9 @@ const page = () => {
   return (
    <div className='login-dark'>
   <form method='post'> 
-
+    <h1>resolve conflict</h1>
   <h2 className="sr-only">Login Form</h2>
+  <h2 className="sr-only">Login Form12</h2>
             <div className="illustration">
                 <i className="icon ion-ios-locked-outline"></i>
                 </div>
