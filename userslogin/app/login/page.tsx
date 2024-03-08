@@ -1,14 +1,17 @@
-
-import Users from '@/components/users/users'
+// import Users from '@/components/users/users'
 import React from 'react'
+// import { useRouter } from 'next/router'
 
-
-function page() {
+const login = () => {
+  // const router = useRouter()
+  // console.log(router,'here1')
+  // const {sno}= router.query 
   return (
     <div>
-        <Users/>
+      hlw gys
+      {/* <Users/> */}
     </div>
   )
 }
 
-export default page
+export default login
