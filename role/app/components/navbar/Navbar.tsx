@@ -1,20 +1,44 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
+
 const Navbar = () => {
   return (
-   
     <nav>
-       
-    
-       <li><Link href="/userlogin"> Userlogin</Link></li>
-       <li><Link href="/home"> home </Link></li>
-       <li><Link href="/about"> about</Link></li>
-       <li><Link href="/contact">contact</Link></li>
-        
-       
-       
-    </nav>
-  )
-}
+      <div>
+        <ul
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            listStyle: "none",
+            marginTop: "2rem",
+          }}
+        >
+          <li>
+            <Link href="/userlogin"> Userlogin </Link>
+          </li>
+          <li>
+            <Link href="/home"> Home </Link>
+          </li>
+          <li>
+            <Link href="/product">Product</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
 
-export default Navbar
+          {/* <li>
+            <Link href="/param">param</Link>
+          </li>
+          <li>
+            <Link href="/demo">demo</Link>
+          </li>
+          <li>
+            <Link href="/123">abc</Link>
+          </li> */}
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
