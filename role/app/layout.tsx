@@ -18,11 +18,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <header
+          style={{
+            backgroundColor: "lightblue",
+            padding: "1rem",
+            textAlign: "center",
+          }}
+        >
+          <h4>Header</h4>
+        </header>
+        <Navbar />
         {children}
 
-        </body>
+        <footer
+          style={{
+            backgroundColor: "#ffcccc",
+            padding: "1rem",
+            textAlign: "center",
+            marginTop: "10rem",
+          }}
+        >
+          <h4>Footer</h4>
+        </footer>
+      </body>
     </html>
-  
   );
 }
