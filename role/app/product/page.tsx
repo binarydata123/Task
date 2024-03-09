@@ -1,6 +1,7 @@
 import React from "react";
 import "./page.css";
 import Link from "next/link";
+
 const page = () => {
   return (
     <div className="login-dark">
