@@ -20,19 +20,25 @@ export default function RootLayout({
       <body className={inter.className}>
         <header
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "darkgray",
             padding: "1rem",
             textAlign: "center",
           }}
         >
-          <h4>Header</h4>
+          {/* <h4>Header</h4>
+           */}
+           <Navbar />
         </header>
-        <Navbar />
+        <section></section>
+        <div className="container" style={{width: "80%",
+    margin: "50px auto;"}}>
         {children}
+        </div>
+        
 
         <footer
           style={{
-            backgroundColor: "#ffcccc",
+            backgroundColor: "darkgray",
             padding: "1rem",
             textAlign: "center",
             marginTop: "10rem",

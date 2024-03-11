@@ -1,6 +1,8 @@
 "use client";
 import { useRouter } from "next/navigation";
 import React from "react";
+import Home from "./home/page";
+
 
 function page() {
   const router = useRouter();
@@ -33,6 +35,7 @@ function page() {
         }}
       >
         Welcome!
+        <Home/>
       </h1>
       <button onClick={handleClick1}>1</button>
       {/* <br />

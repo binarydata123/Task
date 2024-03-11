@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 
+function Home() {
 function page() {
   const route = useRouter();
   const handleClick = () => {
@@ -46,4 +47,4 @@ function page() {
   );
 }
 
-export default page;
+export default Home;
