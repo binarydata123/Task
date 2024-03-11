@@ -1,4 +1,6 @@
 import React from "react";
+import Home from "./home/page";
+
 
 function page() {
   return (
@@ -10,6 +12,7 @@ function page() {
         }}
       >
         Welcome!
+        <Home/>
       </h1>
     </div>
   );

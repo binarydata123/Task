@@ -1,6 +1,6 @@
 import React from "react";
 
-function page() {
+function Home() {
   return (
     <div>
       <h1 className="text-3xl font-bold underline text-red-500">
@@ -34,4 +34,4 @@ function page() {
   );
 }
 
-export default page;
+export default Home;

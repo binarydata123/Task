@@ -1,6 +1,8 @@
+"use client"
 import React from "react";
 import "./page.css";
 import Link from "next/link";
+import {Form,Input} from"antd";
 
 const page = () => {
   return (
@@ -20,12 +22,13 @@ const page = () => {
           />
         </div>
         <div className="form-group">
-          <input
-            className="form-control"
-            type="password"
-            name="password"
-            placeholder="Password"
-          />
+        <Form.Item name="first_name" rules={[
+        {
+          required:true,
+        },{whitespace:true},{min:4}
+        ]} hasFeedback>
+        <Input placeholder='type your first name'/>
+      </Form.Item>
         </div>
         <div className="form-group">
           <button className="btn btn-primary btn-block" type="submit">

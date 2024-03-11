@@ -4,7 +4,6 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav>
-      <h1>Conlfict Resolved</h1>
       <div>
         <ul
           style={{
@@ -12,19 +11,23 @@ const Navbar = () => {
             justifyContent: "space-around",
             listStyle: "none",
             marginTop: "2rem",
+            color:"white"
           }}
         >
+        <li>
+          <Link href="/home" style={{textDecoration:"none"}}> Home </Link>
+        </li>
           <li>
-            <Link href="/userlogin"> Userlogin </Link>
+            <Link href="/userlogin" style={{textDecoration:"none"}}> Userlogin </Link>
           </li>
           <li>
-            <Link href="/home"> Home </Link>
+            <Link href="/product" style={{textDecoration:"none"}}>Product</Link>
           </li>
           <li>
-            <Link href="/product">Product</Link>
+            <Link href="/contact" style={{textDecoration:"none"}}>Contact</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/ant_design" style={{textDecoration:"none",}}>Ant design</Link>
           </li>
 
           {/* <li>
@@ -39,13 +42,13 @@ const Navbar = () => {
         </ul>
       </div>
 
-       <li><Link href="/userlogin"> Userlogin</Link></li>
+       {/* <li><Link href="/userlogin"> Userlogin</Link></li>
        <li><Link href="/home"> home </Link></li>
        <li><Link href="/about"> about</Link></li>
        <li><Link href="/contact"> contact</Link></li>
        
        <li><Link href="/contact">contact</Link></li>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse cum a vero ex ea accusamus repudiandae, eaque, omnis possimus tempora porro.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse cum a vero ex ea accusamus repudiandae, eaque, omnis possimus tempora porro.</h1> */}
     </nav>
   );
 };
