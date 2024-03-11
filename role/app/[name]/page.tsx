@@ -6,6 +6,10 @@ function page(props: any) {
   return (
     <div>
       <h1>this dynamic page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
+        nemo.
+      </p>
     </div>
   );
 }
