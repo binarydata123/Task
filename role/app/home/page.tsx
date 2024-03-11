@@ -1,11 +1,20 @@
+"use client";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 function Home() {
+function page() {
+  const route = useRouter();
+  const handleClick = () => {
+    alert("GoTo Product Page");
+    route.push("/product");
+  };
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-red-500">
+    <div style={{ marginTop: "2rem" }}>
+      <h1 className="text-3xl font-bold underline text-yellow-700">
         Welcome To Next.JS Page
       </h1>
+      <br />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iure
         quaerat ducimus velit facilis cupiditate dolorem quae ipsam voluptate
@@ -30,6 +39,10 @@ function Home() {
         maiores quidem totam vel eius debitis voluptates? Deleniti assumenda
         placeat aperiam magnam perspiciatis asperiores?
       </p>
+      <br />
+      <br />
+
+      <button onClick={handleClick}>Next Page</button>
     </div>
   );
 }

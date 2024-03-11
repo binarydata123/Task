@@ -3,8 +3,10 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1>contact page</h1>
+    <div style={{ marginTop: "2rem" }}>
+      <h1 className="text-3xl font-bold underline text-cyan-600">
+        contact page
+      </h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
         voluptatem ipsam, dolor dolorem, nihil dicta repellat repellendus iure
