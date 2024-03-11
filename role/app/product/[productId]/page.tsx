@@ -4,10 +4,12 @@ function page() {
   return (
     <>
       <div>
+        <br />
+        <br />
         <h1>detail about product</h1>
+        <br />
+        <br />
 
-        <h1>detail about product45</h1>
-        <h2>conflict</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veniam,
           optio quos incidunt ullam molestias deleniti repellat neque suscipit!
