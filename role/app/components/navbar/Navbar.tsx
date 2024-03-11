@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav>
-      <h1>Conlfict Resolved</h1>
+      <h1>Conflict Resolved</h1>
       <div>
         <ul
           style={{
@@ -38,14 +38,6 @@ const Navbar = () => {
           </li> */}
         </ul>
       </div>
-
-       <li><Link href="/userlogin"> Userlogin</Link></li>
-       <li><Link href="/home"> home </Link></li>
-       <li><Link href="/about"> about</Link></li>
-       <li><Link href="/contact"> contact</Link></li>
-       
-       <li><Link href="/contact">contact</Link></li>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse cum a vero ex ea accusamus repudiandae, eaque, omnis possimus tempora porro.</h1>
     </nav>
   );
 };
