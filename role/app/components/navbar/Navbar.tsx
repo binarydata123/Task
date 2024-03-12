@@ -9,11 +9,12 @@ const navLinks = [
   { name: "Product", href: "/product" },
   { name: "Contact", href: "/contact" },
   { name: "Ant Design", href: "/ant_design" },
+  { name: "Auth", href: "/register" },
 ];
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div>
+    <div style={{ margin: "2rem" }}>
       {navLinks.map((link) => {
         const isActive = pathname.startsWith(link.href);
         return (

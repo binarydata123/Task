@@ -6,7 +6,7 @@ function page() {
       style={{
         width: "10rem",
         height: "10rem",
-        backgroundColor: "#a5db46",
+        backgroundColor: "mediumSeaGreen",
       }}
     >
       <h1 style={{ textAlign: "center", padding: "3rem" }}>Login page</h1>

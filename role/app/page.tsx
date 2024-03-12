@@ -34,7 +34,12 @@ function page() {
       >
         Welcome!
       </h1>
-      <button onClick={handleClick1}>1</button>
+      <button
+        style={{ marginLeft: "80rem", marginTop: "5rem" }}
+        onClick={handleClick1}
+      >
+        1
+      </button>
       {/* <br />
       <button onClick={handleClick2}>2</button>
       <br />

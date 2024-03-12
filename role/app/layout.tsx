@@ -32,7 +32,7 @@ export default function RootLayout({
 
         <footer
           style={{
-            backgroundColor: "#ffcccc",
+            backgroundColor: "#f26f8a",
             padding: "1rem",
             textAlign: "center",
             marginTop: "10rem",

@@ -1,8 +1,13 @@
-// import React from "react";
-// import card from "@/app/components/card";
-// function page() {
-//   return;
-//   <card>notifications</card>;
-// }
+import Card from "@/app/components/card";
+import React from "react";
 
-// export default page;
+function page() {
+  return (
+    <div>
+      <h1>notifications</h1>
+      <Card>notifications</Card>
+    </div>
+  );
+}
+
+export default page;

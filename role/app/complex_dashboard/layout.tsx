@@ -2,19 +2,25 @@ export default function DashboardLayout({
   children,
   users,
   revenue,
-  notifications,
+  notification,
 }: {
   children: React.ReactNode;
   users: React.ReactNode;
   revenue: React.ReactNode;
-  notifications: React.ReactNode;
+  notification: React.ReactNode;
 }) {
   return (
     <>
-      <div>{children}</div>
-      <div>{users}</div>
-      <div>{revenue}</div>
-      <div>{notifications}</div>
+      <div>
+        <div>{children}</div>
+        <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <div>{users}</div>
+            <div>{revenue}</div>
+          </div>
+          <div style={{ display: "flex", flex: 1 }}>{notification}</div>
+        </div>
+      </div>
     </>
   );
 }

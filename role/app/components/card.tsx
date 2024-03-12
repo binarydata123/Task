@@ -1,6 +1,6 @@
 import React from "react";
 
-const card = ({ children }: { children: React.ReactNode }) => {
+const Card = ({ children }: { children: React.ReactNode }) => {
   const cardStyle = {
     padding: "100px",
     margin: "10px",
@@ -13,4 +13,4 @@ const card = ({ children }: { children: React.ReactNode }) => {
   return <div style={cardStyle}>{children}</div>;
 };
 
-export default card;
+export default Card;
